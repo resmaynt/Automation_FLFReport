@@ -49,3 +49,41 @@ FLF-Automation-System/
 ├── README.md                # Dokumentasi
 └── .gitignore
 ```
+---
+
+## ⚙️ Instalasi
+
+### 1️⃣ Persiapan
+Pastikan **Python 3.9+** sudah terinstal.
+
+Cek versi Python:
+```bash
+python --version
+
+```
+### 2️⃣ Clone Repository
+```bash
+git clone https://github.com/resmaynt/Automation_FLFReport.git
+cd Automation_FLFReport
+```
+### 3️⃣ Buat Virtual Environment (Opsional tapi Disarankan)
+```bashpython -m venv .venv
+.venv\Scripts\activate
+```
+ 
+###4️⃣ Install Dependency
+```bash
+pip install -r requirements.txt
+```
+### ▶️ Menjalankan Aplikasi
+Windows
+```bash
+run.bat
+```
+Semua OS
+```bash
+python run.py
+```
+---
+
+
